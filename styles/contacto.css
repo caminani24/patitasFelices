@@ -88,6 +88,32 @@ nav ul li a span {
     margin: 10px;
 }
 
+#footer {
+    background-color: #182336;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+
+#main-content {
+    margin-bottom: 70px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content a {
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     #containerMap {
         width: 90%;
@@ -100,32 +126,6 @@ nav ul li a span {
     #textContact {
         text-align: center;
     }
-}
-
-#footer {
-    background-color: #182336;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.footer-content a {
-    color: white;
-    font-size: 24px;
-    margin-right: 20px;
-}
-
-@media only screen and (max-width: 600px) {
     nav ul li {
         display: block;
         margin: 10px 0;
@@ -138,3 +138,5 @@ nav ul li a span {
         margin-top: 0;
     }
 }
+
+
