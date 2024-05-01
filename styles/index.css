@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e2d48;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-section {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#logo-section img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#headerText {
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+nav {
+    background-color: #81bddc;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+nav ul li a span {
+    display: block;
+}
+
+
+#title{
+    text-align: center;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+#boxConteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.box {
+    width: 255px;
+    height: 398px;
+    background: #31929B;
+    margin: 0 10px; 
+    border-radius: 10px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+}
+
+.box img {
+    width: 171px;
+    height: 115px;
+}
+
+.box h4,
+.box p {
+    color: white;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.box p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+#footer {
+    background-color: #182336; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+#main-content {
+    margin-bottom: 70px; 
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 10px; 
+}
+
+.footer-content a {
+    color: white; 
+    font-size: 24px; 
+    margin-right: 20px; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0; 
+    }
+    #logo-section {
+        margin-bottom: 10px; 
+        
+    }
+
+    nav {
+        margin-top: 0; 
+    }
+    .box {
+        width: calc(90% - 120px); 
+        margin: 10px; 
+    }
+}
