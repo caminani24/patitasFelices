@@ -38,7 +38,6 @@ header {
 
 nav {
     background-color: #81bddc;
-    color: white;
     padding: 10px;
     width: 100%;
     margin-top: 10px;
@@ -62,8 +61,9 @@ nav ul li:first-child {
 }
 
 nav ul li a {
-    color: white;
+    color: #1e2d48;
     text-decoration: none;
+    font-weight: bold;
     font-family: "Schibsted Grotesk", sans-serif;
 }
 
@@ -105,7 +105,28 @@ nav ul li a span {
     color: white;
     font-size: 24px;
     margin-right: 20px;
+    
 }
+#textContainer {
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 5rem; /* Ajusta el margen izquierdo */
+    margin-right: 5rem; /* Ajusta el margen derecho */
+  }
+  #container-foto {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center; /* Centra el contenido del div */
+  }
+  #fotoMascota {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%;
+    height: auto;
+    max-width: 40%; /* Ajusta el ancho máximo de la imagen */
+  }
+
+
 
 @media only screen and (max-width: 600px) {
     nav ul li {
@@ -119,4 +140,7 @@ nav ul li a span {
     nav {
         margin-top: 0;
     }
+    img {
+        max-width: 80%; /* Ajusta el ancho máximo de la imagen */
+      }
 }

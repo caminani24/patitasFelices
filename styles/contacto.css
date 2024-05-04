@@ -38,7 +38,6 @@ header {
 
 nav {
     background-color: #81bddc;
-    color: white;
     padding: 10px;
     width: 100%;
     margin-top: 10px;
@@ -62,7 +61,8 @@ nav ul li:first-child {
 }
 
 nav ul li a {
-    color: white;
+    color: #1e2d48;
+    font-weight: bold;
     text-decoration: none;
     font-family: "Schibsted Grotesk", sans-serif;
 }
@@ -86,6 +86,10 @@ nav ul li a span {
 #textContact,
 #containerMap {
     margin: 10px;
+}
+
+#containerMap{
+    height: 70%;
 }
 
 #footer {
